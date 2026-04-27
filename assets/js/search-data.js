@@ -435,11 +435,31 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-an-album-of-fluid-motion",
+      },{id: "books-advanced-calculus",
+          title: 'Advanced Calculus',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/advanced_calculus/";
+            },},{id: "books-an-album-of-fluid-motion",
           title: 'An Album of Fluid Motion',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/album_fluid_motion/";
+            },},{id: "books-chaos",
+          title: 'Chaos',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/chaos/";
+            },},{id: "books-computational-fluid-dynamics-2nd-ed",
+          title: 'Computational Fluid Dynamics, 2nd Ed.',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/comp_fluid_dynamics_chung/";
+            },},{id: "books-complex-analysis-with-applications",
+          title: 'Complex Analysis With Applications',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/complex_analysis_with_app/";
             },},{id: "books-data-driven-science-and-engineering-2nd-ed",
           title: 'Data-Driven Science and Engineering, 2nd Ed.',
           description: "",
@@ -450,6 +470,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/div_grad_curl_andallthat/";
+            },},{id: "books-the-feynman-lectures-of-physics-volume-1-mainly-mechanics-radiation-and-heat",
+          title: 'The Feynman Lectures of Physics, VOLUME 1; Mainly Mechanics, Radiation, and Heat',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/feynman_lec_vol1/";
             },},{id: "books-for-a-new-geography",
           title: 'For a New Geography',
           description: "",
