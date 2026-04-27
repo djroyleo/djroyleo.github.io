@@ -25,11 +25,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-> *Do I contradict myself?*
+> Do I contradict myself?
 >
-> *Very well then I contradict myself,*
+> Very well then I contradict myself,
 >
-> *(I am large, I contain multitudes.)*
+> (I am large, I contain multitudes.)
 >
->
-> - Walt Whitman, _Song of Myself_
+> -Walt Whitman, _Song of Myself_
