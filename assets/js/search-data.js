@@ -358,6 +358,17 @@ ninja.data = [{
             window.location.href = "/blog/2021/diagrams/";
           
         },
+      },{id: "post-subset-selection",
+        
+          title: "Subset Selection",
+        
+        description: "My notes on subset selection methods from the textbook &quot;An Introduction to Statistical Learning&quot;",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/biostats-week4/";
+          
+        },
       },{id: "post-a-distill-style-blog-post",
         
           title: "a distill-style blog post",
