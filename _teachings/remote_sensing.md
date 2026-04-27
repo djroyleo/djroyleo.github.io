@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Data Science Fundamentals
+title: Remote Sensing and Image Interpretation
 description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
+instructor: Prof. Qian YU
 year: 2024
-term: Spring
+term: Fall
 location: Science Building, Room 202
 time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+course_id: remote-sensing-img-interp
 schedule:
   - week: 1
     date: Feb 5

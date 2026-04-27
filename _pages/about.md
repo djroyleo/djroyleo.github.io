@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Hadley, Massachusetts 01035</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -26,6 +26,9 @@ latest_posts:
 ---
 
 > Do I contradict myself?
+>
 > Very well then I contradict myself,
+>
 > (I am large, I contain multitudes.)
+>
 > Walt Whitman, _Song of Myself_

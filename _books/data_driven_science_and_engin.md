@@ -5,7 +5,7 @@ author: Steven L. Brunton & J. Nathan Kutz
 isbn: 978-1-009-09848-9 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: textbook ML
 tags: top-100
-buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
+buy_link: https://www.amazon.com/Data-Driven-Science-Engineering-Learning-Dynamical/dp/1009098489/ref=sr_1_1?crid=3CSGNEGRXTNL&dib=eyJ2IjoiMSJ9.Wr9U9BMdIjPP5PgvrZIzpMA3m9zbEUz-Tgfb4r-SQQWFYj-nqDw6sKV5yCj5mNYiX7FBKnL0seFV86joBNqz5vLvvN2EFRUeBS5OdXD4Hnr67hks1_RvHKb9LtOd-S9VnrQ7HTdigc5SurJsSGdiq4XY0-Oj9OIcTdGIYkU4J8XAwr9JzI7iSpXEIur2LIrzofgECjtpjNOKM7sOaontzWQpXStsfokGLiRgqhKGxKw.k43jjv29YPlw027yVSL-fr7AvZbNrgaTCWWz3oqwCVw&dib_tag=se&keywords=data+driven+science+and+engineering&qid=1777316108&s=books&sprefix=data+driven+science+and+engineeri%2Cstripbooks%2C320&sr=1-1
 date: 2026-04-27
 started: 2025-08-01
 finished: 2026-04-27
