@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
+          description: "Courses I&#39;ve TA&#39;d for or taught",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
@@ -435,11 +435,36 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-data-driven-science-and-engineering-2nd-ed",
+      },{id: "books-an-album-of-fluid-motion",
+          title: 'An Album of Fluid Motion',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/album_fluid_motion/";
+            },},{id: "books-data-driven-science-and-engineering-2nd-ed",
           title: 'Data-Driven Science and Engineering, 2nd Ed.',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/data_driven_science_and_engin/";
+            },},{id: "books-div-grad-curl-and-all-that-3rd-ed",
+          title: 'div grad curl and all that, 3rd Ed.',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/div_grad_curl_andallthat/";
+            },},{id: "books-for-a-new-geography",
+          title: 'For a New Geography',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/for_a_new_geography/";
+            },},{id: "books-numerical-methods-for-wave-equations-in-geophysical-fluid-dynamics",
+          title: 'Numerical Methods for Wave Equations in Geophysical Fluid Dynamics',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/num_methods_wave_eq/";
+            },},{id: "books-the-new-jim-crow",
+          title: 'The New Jim Crow',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_new_jim_crow/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -496,16 +521,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
+            },},{id: "teachings-gis-and-spatial-analysis",
+          title: 'GIS and Spatial Analysis',
+          description: "",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/advanced_gis/";
+            },},{id: "teachings-remote-sensing-and-image-interpretation",
+          title: 'Remote Sensing and Image Interpretation',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/remote_sensing/";
             },},{
         id: 'social-cv',
         title: 'CV',
