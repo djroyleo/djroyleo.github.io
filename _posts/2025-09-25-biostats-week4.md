@@ -4,7 +4,7 @@ title: Subset Selection
 description: My notes on subset selection methods from the textbook "An Introduction to Statistical Learning"
 tags: distill formatting
 giscus_comments: true
-date: 2021-05-22
+date: 2025-09-25
 featured: true
 mermaid:
   enabled: true
@@ -20,9 +20,9 @@ typograms: true
 
 authors:
   - name: Dylan J. Roy-Leo
-    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+    url: "https://djroyleo.github.io"
     affiliations:
-      name: UMass Amherst
+      name: UMass
 
 bibliography: 2018-12-22-distill.bib
 
