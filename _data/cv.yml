@@ -1,15 +1,23 @@
 cv:
-  name: "Dylan J. Roy"
+  name: "Dylan J Roy-Leo"
+  label: Scientist
   location: "Amherst, MA"
   email: "djroy@umass.edu"
   phone: "+14137680907"
+
+  social_networks:
+    - network: GitHub
+      username: djroy
+    - network: LinkedIn
+      username: dylanjroy
+
   sections:
-    education:
+    Education:
       - institution: "University of Massachusetts Amherst"
         area: "Geography"
-        degree: "MSc"
-        start_date: "2024-09"
-        end_date: "2026-05"
+        studyType: "MSc"
+        start_date: 2024
+        end_date: 2026
         location: "Amherst, MA"
         highlights:
           - "Current GPA: 3.8"
@@ -18,32 +26,33 @@ cv:
           - "Relevant coursework: Time Series Analysis, Ocean Dynamics, Computational Methods in Environmental Engineering, Coastal Processes, Quantitative Methods in the Geosciences, and Biostatistics"
       - institution: "University of Massachusetts Amherst"
         area: "Environmental Science"
-        degree: "BSc"
-        end_date: "2024-05"
+        studyType: "BSc"
+        start_date: 2020
+        end_date: 2024
         location: "Amherst, MA"
         highlights:
           - "Completed senior independent study on predicting bluff erosion based on coastline retreat metrics"
           - "Presented research at the Five College Geology Undergraduate Research Symposium"
           - "Relevant coursework: Python for ArcGIS, Remote Sensing and Image Interpretation, and GIS and Spatial Analysis"
-    research_experience:
+    Experience:
       - company: "North East Climate Adaptation Science Center"
         position: "Research Fellow"
-        start_date: "2024-09"
-        end_date: "present"
+        start_date: 2024
+        end_date: 2026
         location: "Amherst, MA"
         highlights:
           - "Selected for a two-year research fellowship focused on climate adaptation and scientific best practices"
           - "Active member of the science communication working group"
           - "Participated in the spring 2025 fellows intensive and weekly research seminars"
-    publications:
-      - title: "A LiDAR-Based Method for Quantifying Fine-Grain Coastal Erosion and Its Spatial Correlation with Shoreline Armoring and Marsh Systems"
+    Publications:
+      - title: A LiDAR-Based Method for Quantifying Fine-Grain Coastal Erosion and Its Spatial Correlation with Shoreline Armoring and Marsh Systems
         authors:
           - "*Roy, D.J.*"
           - "Yellen, B."
           - "Yu, Q."
         journal: "Manuscript in preparation"
-        date: "2025"
-    teaching_experience:
+        releaseDate: 2026-01-01
+    Teaching:
       - company: "University of Massachusetts Amherst"
         position: "Graduate Teaching Assistant"
         start_date: "2024-09"
@@ -59,7 +68,7 @@ cv:
         highlights:
           - "Assisted with grading and lab sections for Computer Mapping and Introduction to GIS"
           - "Supported students in mastering fundamental geospatial concepts and software"
-    presentations:
+    Presentations:
       - name: "Coastal and Estuarine Research Federation (CERF) Conference"
         location: "Richmond, VA"
         date: "2025-11"
@@ -74,7 +83,7 @@ cv:
         date: "2025-03"
         highlights:
           - "Delivered webinar on the importance of sediment to Northeast salt marshes and threats from declining supply"
-    technical_skills:
+    Skills:
       - label: "Programming"
         details: "Python, Google Earth Engine API, XArray, Dask, SciPy, NumPy, PyCWT, PySINDy, Poetry"
       - label: "GIS & Remote Sensing"
