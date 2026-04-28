@@ -47,46 +47,46 @@ cv:
     Publications:
       - title: A LiDAR-Based Method for Quantifying Fine-Grain Coastal Erosion and Its Spatial Correlation with Shoreline Armoring and Marsh Systems
         authors:
-          - "*Roy, D.J.*"
-          - "Yellen, B."
-          - "Yu, Q."
-        journal: "Manuscript in preparation"
+          - Roy, D.J.
+          - Yellen, B.
+          - Yu, Q.
+        journal: Manuscript in preparation
         releaseDate: 2026-01-01
     Teaching:
       - company: "University of Massachusetts Amherst"
         position: "Graduate Teaching Assistant"
-        start_date: "2024-09"
-        end_date: "present"
+        start_date: 2024
+        end_date: 2026
         highlights:
           - "Managed undergraduate and graduate sections for GIS and Spatial Analysis and Remote Sensing courses"
           - "Independently designed and conducted midterm review sessions and facilitated laboratory instruction"
           - "Administered course content and grading through the Canvas LMS"
       - company: "University of Massachusetts Amherst"
         position: "Undergraduate Teaching Assistant"
-        start_date: "2023-09"
-        end_date: "2024-05"
+        start_date: 2023
+        end_date: 2024
         highlights:
           - "Assisted with grading and lab sections for Computer Mapping and Introduction to GIS"
           - "Supported students in mastering fundamental geospatial concepts and software"
     Presentations:
-      - name: "Coastal and Estuarine Research Federation (CERF) Conference"
+      - name: Coastal and Estuarine Research Federation (CERF) Conference
         location: "Richmond, VA"
-        date: "2025-11"
+        date: 2025
         highlights:
           - "Presented poster titled: A LiDAR-Based Method for Quantifying Fine-Grain Coastal Erosion"
-      - name: "New England Estuarine Research Society (NEERS) Conference"
+      - name: New England Estuarine Research Society (NEERS) Conference
         location: "Provincetown, MA"
-        date: "2025-04"
+        date: 2025
         highlights:
           - "Presented poster titled: The contribution of bluff erosion to coastal sediment budgets"
-      - name: "NE CASC Spring Webinar Series"
-        date: "2025-03"
+      - name: NE CASC Spring Webinar Series
+        date: 2025
         highlights:
           - "Delivered webinar on the importance of sediment to Northeast salt marshes and threats from declining supply"
     Skills:
-      - label: "Programming"
-        details: "Python, Google Earth Engine API, XArray, Dask, SciPy, NumPy, PyCWT, PySINDy, Poetry"
-      - label: "GIS & Remote Sensing"
-        details: "ArcGIS, image interpretation, spatial analysis, LiDAR data processing"
-      - label: "Mathematics & Modeling"
-        details: "Calculus, Fourier methods, linear algebra, ODEs/PDEs, fluid dynamics, CFD, Dynamic Mode Decomposition"
+      - name: Programming
+        keywords: "Python, Google Earth Engine API, XArray, Dask, SciPy, NumPy, PyCWT, PySINDy, Poetry"
+      - name: GIS & Remote Sensing
+        keywords: "ArcGIS, image interpretation, spatial analysis, LiDAR data processing"
+      - name: Mathematics & Modeling
+        keywords: "Calculus, Fourier methods, linear algebra, ODEs/PDEs, fluid dynamics, CFD, Dynamic Mode Decomposition"
