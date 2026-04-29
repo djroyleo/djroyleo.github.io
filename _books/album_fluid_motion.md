@@ -12,6 +12,7 @@ finished: 2024-05-23
 released: 1982
 stars: 5
 status: Finished
+# status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
 
 An amazing book of incredibly inspiring natural and lab-generated fluid-dynamic phenomenon.

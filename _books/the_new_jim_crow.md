@@ -12,4 +12,5 @@ finished: 2024-07-29
 released: 2010
 stars: 5
 status: Finished
+# status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---

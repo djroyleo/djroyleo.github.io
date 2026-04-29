@@ -12,4 +12,5 @@ finished: 2026-08-15
 released: 1987
 stars: 5
 status: Finished
+# status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---

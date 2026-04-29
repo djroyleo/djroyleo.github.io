@@ -11,7 +11,8 @@ started: 2026-04-27
 finished: 2026-04-27
 released: 1947
 stars: 3
-status: In Progress
+status: abondoned
+# status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
 
 Difficult to read.

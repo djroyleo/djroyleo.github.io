@@ -12,6 +12,7 @@ finished: 2025-01-01
 released: 1997
 stars: 5
 status: Finished
+# status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
 
 DIVERGENCE THEOREM

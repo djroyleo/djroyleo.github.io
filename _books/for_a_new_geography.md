@@ -2,7 +2,7 @@
 layout: book-review
 title: For a New Geography
 author: Milton Santos
-isbn: 978-1-5179-0908-6 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 9781517909086 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: textbook GFD numerical-methods
 tags: top-100
 buy_link: https://www.amazon.com/New-Geography-Milton-Santos/dp/1517909082
@@ -11,5 +11,6 @@ started: 2024-04-01
 finished: 2026-04-27
 released: 1978
 stars: 5
-status: In Progress
+status: paused
+# status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
