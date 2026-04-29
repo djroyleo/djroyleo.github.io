@@ -72,7 +72,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-subset-selection",
+            },{id: "post-linear-discriminant-analysis",
+        
+          title: "Linear Discriminant Analysis",
+        
+        description: "My notes on LDA from the textbook &quot;An Introduction to Statistical Learning&quot;",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/biostats-week9/";
+          
+        },
+      },{id: "post-shrinkage-methods-ridge-regression-and-the-lasso",
+        
+          title: "Shrinkage methods, ridge regression, and the LASSO",
+        
+        description: "My notes on Shrinkage from the textbook &quot;An Introduction to Statistical Learning&quot;",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/biostats-week5/";
+          
+        },
+      },{id: "post-subset-selection",
         
           title: "Subset Selection",
         
