@@ -2,8 +2,7 @@
 layout: distill
 title: Subset Selection
 description: My notes on subset selection methods from the textbook "An Introduction to Statistical Learning"
-tags: distill formatting
-giscus_comments: true
+tags: statistical-learning machine-learning subset-selection
 date: 2025-09-25
 featured: true
 mermaid:
@@ -19,7 +18,7 @@ tikzjax: true
 typograms: true
 
 authors:
-  - name: Dylan J. Roy-Leo
+  - name: Dylan J Roy-Leo
     url: "https://djroyleo.github.io"
     affiliations:
       name: UMass
@@ -46,6 +45,7 @@ toc:
     - name: Best subset selection
     - name: Forward stepwise selection
     - name: Backward stepwise selection
+  - name: Takeaways
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -142,3 +142,11 @@ Comments:
 - Like forward stepwise, backward stepwise has a huge computational advantage over best subset selection (exact computational advantage is the same as forwards stepwise).
 - Like forward stepwise, not guaranteed to fin the best model out of all $2^p$ possible models involving $p$ predictors.
 - Unlike forward stepwise, can be applied only when $n>p$: must have more observations than features in order to fit the initial model containing all predictors.
+
+# Takeaways
+
+- Naive use of classical linear model theory after model selection ignores data-dependence and is generally invalid.
+- With AIC/BIC, overfitted models yield downward-biased error variance estimates.
+- As a result, AIC-based prediction intervals are too short and undercover.
+- Be cautious when reporting uncertainty after AIC/BIC-based selection.
+- Consider selective/post-selective inference methods or fully pre-specified models.
