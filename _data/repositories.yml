@@ -6,5 +6,5 @@ repo_description_lines_max: 2
 
 github_repos:
   - dylroy/cavity-flow
-  - dylroy/lorez-animation
+  - dylroy/lorenz-animation
   - djroyleo/djroyleo.github.io
