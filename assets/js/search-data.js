@@ -468,7 +468,12 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-advanced-calculus",
+      },{id: "books-a-prayer-for-owen-meany",
+          title: 'A Prayer for Owen Meany',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a_prayer_for_owen_meany/";
+            },},{id: "books-advanced-calculus",
           title: 'Advanced Calculus',
           description: "",
           section: "Books",handler: () => {
@@ -478,6 +483,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/album_fluid_motion/";
+            },},{id: "books-animal-farm",
+          title: 'Animal Farm',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/animal_farm/";
             },},{id: "books-chaos",
           title: 'Chaos',
           description: "",
@@ -518,11 +528,46 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/num_methods_wave_eq/";
+            },},{id: "books-sapiens",
+          title: 'Sapiens',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/sapiens/";
+            },},{id: "books-the-fire-next-time",
+          title: 'The Fire Next Time',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_fire_next_time/";
+            },},{id: "books-the-metamorphosis",
+          title: 'The Metamorphosis',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_metamorphosis/";
             },},{id: "books-the-new-jim-crow",
           title: 'The New Jim Crow',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_new_jim_crow/";
+            },},{id: "books-the-old-man-and-the-sea",
+          title: 'The Old Man and the Sea',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_old_man_and_the_sea/";
+            },},{id: "books-the-sun-also-rises",
+          title: 'The Sun Also Rises',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_sun_also_rises/";
+            },},{id: "books-things-fall-apart",
+          title: 'Things Fall Apart',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/things_fall_apart/";
+            },},{id: "books-a-thousand-splendid-suns",
+          title: 'A Thousand Splendid Suns',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/a_thousand_splendid_suns/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
