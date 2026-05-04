@@ -1,4 +1,4 @@
---- 
+---
 layout: book-review
 title: The New Jim Crow
 author: Michelle Alexander

@@ -1,7 +1,7 @@
 ---
 layout: course
 title: GIS and Spatial Analysis
-description: 
+description:
 instructor: Prof. Qian Yu
 year: 2025
 term: Spring

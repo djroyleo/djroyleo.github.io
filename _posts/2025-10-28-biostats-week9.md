@@ -65,6 +65,6 @@ $$
 - As seen, LSA and logistics regression have the same form of log odds. Both of whicha re linear functions of $x$. The only difference is the way the parameters are estimated. This same connection between LDA and logistic regression also holds for multidimensional data wit multiple predictors.
 - In general, logistic regression is safer than LDA because LDA has strong assumptions about the normal distribution of $X$ and strong assumptions about the covariance matrix.
 - LDA is useful:
-    - when $n$ is small
-    - or the classes are well separated
-    - and Gaussian assumptions are reasonable
+  - when $n$ is small
+  - or the classes are well separated
+  - and Gaussian assumptions are reasonable

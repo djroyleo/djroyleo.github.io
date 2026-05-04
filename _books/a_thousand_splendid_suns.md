@@ -1,4 +1,4 @@
---- 
+---
 layout: book-review
 title: A Thousand Splendid Suns
 author: Khaled Hosseini

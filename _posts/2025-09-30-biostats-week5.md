@@ -34,8 +34,8 @@ bibliography: 2018-12-22-distill.bib
 toc:
   - name: Shrinkage methods
     subsections:
-    - name: Ridge regression
-    - name: Ridge regression matrix expression
+      - name: Ridge regression
+      - name: Ridge regression matrix expression
 
 # Below is an example of injecting additional post-specific styles.
 # If you use this post as a template, delete this _styles block.
@@ -58,7 +58,7 @@ _styles: >
 
 # Shrinkage methods
 
-- *Shrinkage methods* fit a model using all *p* predictors, using a technique that **shrinks** or **regularizes** the coefficient estimates towards zero.
+- _Shrinkage methods_ fit a model using all _p_ predictors, using a technique that **shrinks** or **regularizes** the coefficient estimates towards zero.
 
 ## Ridge regression
 
@@ -80,7 +80,7 @@ y_i-\beta_0-\sum_{j=1}^p \beta_jx_{jj}
 \lambda\sum_{j=1}^p\beta_j^2=RSS+\lambda\sum_{j=1}^p\beta_j^2
 $$
 
-$\lambda \ge 0$ is a *tuning parameter* that controls the amount of shrinkage
+$\lambda \ge 0$ is a _tuning parameter_ that controls the amount of shrinkage
 
 - When $\lambda=0$, get least squares estimates.
 - When $\lambda > 0$, get estimates that shrunken towards zero.
@@ -91,7 +91,7 @@ The shrinkage penalty is applied to $\beta_1, \ \beta_2, \ \dots, \ \beta_p$ but
 
 ## Ridge regression matrix expression
 
-Assume that $y=(y_1, \ \dots, \ y_n)^T$ is centered. Let $\beta = (\beta_1, \ \dots, \ \beta_p)^T$ and 
+Assume that $y=(y_1, \ \dots, \ y_n)^T$ is centered. Let $\beta = (\beta_1, \ \dots, \ \beta_p)^T$ and
 
 $$
 X=\begin{bmatrix}

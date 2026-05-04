@@ -42,9 +42,9 @@ toc:
   - name: Three classes of methods
   - name: Subset selection methods
     subsections:
-    - name: Best subset selection
-    - name: Forward stepwise selection
-    - name: Backward stepwise selection
+      - name: Best subset selection
+      - name: Forward stepwise selection
+      - name: Backward stepwise selection
   - name: Takeaways
 
 # Below is an example of injecting additional post-specific styles.
@@ -82,14 +82,14 @@ which has many advantages such as simplicity and interpretability and is typical
 - Variance:
 - $n>>p:$ the least squares estimates tend to also have low variance, and hence will perform well on test observations.
 - $n$ is not $>>p$: a lot of variability in the least squares fit, resulting in overfitting and consequently poor predictions on future observations not used in model training.
-- $p>n$: no longer a unique least squares coefficient estimate, the variance is *infinite* so the method cannot be used at all.
+- $p>n$: no longer a unique least squares coefficient estimate, the variance is _infinite_ so the method cannot be used at all.
 
 We can constrain or shrink the estimated coefficients, thus, substantially reducing the variance at the cost of a negligible increase in bias. This can lead to substantial improvements in the accuracy with which we can predict the response for observations not used in model training.
 
 # Model interpretability
 
 - Often, some or many of the variables used in multiple regression models are in fact not associated with the response.
-    - Leads to unnecessary complexity
+  - Leads to unnecessary complexity
 
 # Three classes of methods
 
@@ -101,9 +101,9 @@ We can constrain or shrink the estimated coefficients, thus, substantially reduc
 
 - Simple to understand/implement
 - Three types:
-    - Best subset selection: consider every possible model and choose the best one
-    - Forward step-wise
-    - Backwards step-wise
+  - Best subset selection: consider every possible model and choose the best one
+  - Forward step-wise
+  - Backwards step-wise
 
 ## Best subset selection
 
@@ -133,8 +133,8 @@ Starts with a model containing all of the predictors, and remove predictors, one
 
 - Let $M_p$ denote the full model, which contains all $p$ predictors.
 - For $k=p, p-1, \dots, 1:$
-    - Consider all $k$ models that contain all but one of the predictors in $M_k$ for a total of $k-1$ predictor.
-    - Choose the best among these $k$ models, and call it $M_{k-1}$. Here best is defined as having the smallest RSS, or highest $R^2$.
+  - Consider all $k$ models that contain all but one of the predictors in $M_k$ for a total of $k-1$ predictor.
+  - Choose the best among these $k$ models, and call it $M_{k-1}$. Here best is defined as having the smallest RSS, or highest $R^2$.
 - Select a single best model from among $M_0,\dots,M_p$ using cross validated prediction error, $C_p(\text{AIC})$, $\text{BIC}$ or adjusted $R^2$.
 
 Comments:

@@ -1,4 +1,4 @@
---- 
+---
 layout: book-review
 title: The Fire Next Time
 author: James Baldwin
