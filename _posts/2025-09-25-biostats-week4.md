@@ -5,6 +5,7 @@ description: My notes on subset selection methods from the textbook "An Introduc
 tags: statistical-learning machine-learning subset-selection
 date: 2025-09-25
 featured: true
+giscus_comments: true
 mermaid:
   enabled: true
   zoomable: true
