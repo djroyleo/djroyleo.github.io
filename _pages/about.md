@@ -6,7 +6,7 @@ subtitle: My personal & professional digital garden.
 
 profile:
   align: right
-  image: rhino.png
+  image: old_prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Hadley, Massachusetts 01035</p>

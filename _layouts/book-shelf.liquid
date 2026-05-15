@@ -6,7 +6,8 @@ layout: page
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
-    {% for item in collection reversed %}
+    {% assign sorted_collection = collection | sort: 'started' | reverse %}
+    {% for item in sorted_collection %}
       {% assign current_year = item.started | date: '%Y' %}
       {% if current_year != year %}
         {% unless forloop.first %}
