@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-linear-discriminant-analysis",
+        },{id: "post-l1-l2-and-the-bet-on-sparsity",
+        
+          title: "L1, L2, and the bet on sparsity",
+        
+        description: "How do the L1 and L2 norms relate to each other and to the predictive power of statistical models in varying situations?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/L1-L2-bet-on-sparsity/";
+          
+        },
+      },{id: "post-linear-discriminant-analysis",
         
           title: "Linear Discriminant Analysis",
         
@@ -89,28 +100,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/biostats-week4/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
       },{id: "books-a-prayer-for-owen-meany",
@@ -158,6 +147,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/div_grad_curl_andallthat/";
+            },},{id: "books-dune",
+          title: 'Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dune/";
+            },},{id: "books-dune-messiah",
+          title: 'Dune Messiah',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dune_messiah/";
             },},{id: "books-the-feynman-lectures-of-physics-volume-1-mainly-mechanics-radiation-and-heat",
           title: 'The Feynman Lectures of Physics, VOLUME 1; Mainly Mechanics, Radiation, and Heat',
           description: "",
@@ -213,6 +212,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a_thousand_splendid_suns/";
+            },},{id: "books-children-of-dune",
+          title: 'Children Of Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/children_of_dune/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -234,6 +238,11 @@ ninja.data = [{
           description: "GFD is cool but hard. What if I could make it easier? Check out my explorations in doing just that.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-calculating-the-continuous-wavelet-transform",
+          title: 'Calculating the continuous wavelet transform',
+          description: "A challenge from &quot;A Practical Guide to Wavelet Analysis&quot; (Torrence and Campo, 1997)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{id: "teachings-gis-and-spatial-analysis",
           title: 'GIS and Spatial Analysis',
           description: "",
