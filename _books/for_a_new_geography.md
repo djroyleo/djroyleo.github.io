@@ -3,7 +3,7 @@ layout: book-review
 title: For a New Geography
 author: Milton Santos
 cover: assets/img/book_covers/for_a_new_geography.jpg
-categories: textbook GFD numerical-methods
+categories: geography philosophy
 tags: top-100
 buy_link: https://www.amazon.com/New-Geography-Milton-Santos/dp/1517909082
 date: 2026-04-27
