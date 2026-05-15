@@ -4,7 +4,7 @@ title: L1, L2, and the bet on sparsity
 description: How do the L1 and L2 norms relate to each other and to the predictive power of statistical models in varying situations?
 tags: statistical-learning machine-learning
 date: 2025-10-28
-featured: true
+featured: false
 mermaid:
   enabled: true
   zoomable: true
