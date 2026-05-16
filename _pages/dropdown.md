@@ -1,12 +1,15 @@
 ---
 layout: page
-title: other
-nav: false
+title: Other
+nav: true
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: CV
+    permalink: /cv/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Publications
+    permalink: /publications/
+  - title: divider
+  - title: Teaching
+    permalink: /teaching/
 ---

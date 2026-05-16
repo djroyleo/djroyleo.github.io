@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A blossoming collection of my passion projects, with varying degrees of cool-ness.
 nav: true
