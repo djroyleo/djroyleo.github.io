@@ -222,6 +222,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_kite_runner/";
+            },},{id: "books-magnifica-humanitas",
+          title: 'Magnifica Humanitas',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/magnifica_humanitas/";
+            },},{id: "books-an-introduction-to-statistical-learning-with-applications-in-r",
+          title: 'An Introduction to Statistical Learning with Applications in R',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/ISLR/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
