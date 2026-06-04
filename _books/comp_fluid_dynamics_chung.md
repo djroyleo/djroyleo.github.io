@@ -11,6 +11,6 @@ started: 2026-04-27
 finished: 2026-04-27
 released: 2002
 stars: 5
-status: queued
+status: interested
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---

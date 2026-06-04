@@ -11,6 +11,6 @@ started: 2024-04-01
 finished: 2026-04-27
 released: 1999
 stars: 5
-status: reading
+status: paused
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---

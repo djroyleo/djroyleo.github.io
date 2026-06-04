@@ -11,7 +11,7 @@ started: 2026-04-27
 finished: 2026-04-27
 released: 1974
 stars: 3
-status: queued
+status: interested
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
 

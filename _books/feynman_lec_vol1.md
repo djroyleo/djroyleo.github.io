@@ -11,6 +11,6 @@ started: 2026-04-27
 finished: 2026-04-27
 released: 1963
 stars: 5
-status: reading
+status: queued
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
