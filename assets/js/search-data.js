@@ -232,6 +232,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/ISLR/";
+            },},{id: "books-james",
+          title: 'James',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/james/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
