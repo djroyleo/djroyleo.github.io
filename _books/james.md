@@ -2,7 +2,7 @@
 layout: book-review
 title: James
 author: Percival Everett
-isbn: 9780593686867
+cover: assests/img/book_covers/james_cover.jpg
 categories: fiction
 tags: top-100
 buy_link: https://www.amazon.com/James-Novel-Percival-Everett/dp/0385550367
