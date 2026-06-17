@@ -7,8 +7,8 @@ categories: realistic-fiction pulitzer-prize-winner
 tags: top-100
 buy_link:
 date: 2026-06-17
-started: 2024-06-16
-finished: 2025-06-18
+started: 2026-06-16
+finished: 2026-06-18
 released: 2019
 stars: 5
 status: reading
