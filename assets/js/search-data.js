@@ -237,6 +237,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/james/";
+            },},{id: "books-the-nickel-boys",
+          title: 'The Nickel Boys',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_nickel_boys/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
