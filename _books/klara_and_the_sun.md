@@ -11,6 +11,6 @@ started: 2026-06-18
 finished: 2026-06-22
 released: 2021
 stars: 5
-status: finished
+status: reading
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
