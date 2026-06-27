@@ -2,7 +2,7 @@
 layout: book-review
 title: A Little Life
 author: Hanya Yanagihar
-isbn: 978-1-5290-7721-6
+isbn: 9780385539258
 categories: realistic-fiction 
 tags: top-100
 buy_link:
