@@ -8,9 +8,9 @@ tags: top-100
 buy_link:
 date: 2026-06-25
 started: 2026-06-19
-finished: 2026-06-30
+finished: 2026-07-02
 released: 2015
 stars: 5
-status: reading
+status: finished
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
