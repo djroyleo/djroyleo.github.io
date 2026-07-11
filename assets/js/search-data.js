@@ -252,6 +252,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/a_little_life/";
+            },},{id: "books-god-emperor-of-dune",
+          title: 'God Emperor of Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/god_emperor_of_dune/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
