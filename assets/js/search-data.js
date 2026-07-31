@@ -283,6 +283,11 @@ ninja.data = [{
           description: "A challenge from &quot;A Practical Guide to Wavelet Analysis&quot; (Torrence and Campo, 1997)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-aegis",
+          title: 'AeGIS',
+          description: "A blazingly fast GIS application written in Rust.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
             },},{id: "teachings-gis-and-spatial-analysis",
           title: 'GIS and Spatial Analysis',
           description: "",
