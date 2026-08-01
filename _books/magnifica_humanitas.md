@@ -10,7 +10,7 @@ started: 2026-05-28
 finished: 2026-06-01
 released: 2026
 stars: 5
-status: reading
+status: finished
 ---
 
 Encyclical letter **Magnifica Humanitas** of His Holiness **Pope Leo XIV** on safegaurding the human person in the time of artificial intelligence.
