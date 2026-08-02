@@ -1,6 +1,6 @@
 ---
 layout: page
-title: This website!! Yes, this very one!! The one you're on!!
+title: This website!
 description: Do you like this website and want to have one of your very own just like it? No? Do you hate this website and want to make sure you never make one like it? Either way, check out how I did this thing.
 img: assets/img/12.jpg
 importance: 1
