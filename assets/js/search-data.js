@@ -257,6 +257,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/god_emperor_of_dune/";
+            },},{id: "books-pale-fire",
+          title: 'Pale Fire',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/pale_fire/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
