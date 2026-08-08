@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-l1-l2-and-the-bet-on-sparsity",
+            },{id: "post-aegis-build-out-guide",
+        
+          title: "AeGIS Build-Out-Guide",
+        
+        description: "A guide of the AeGIS codebase with instruction on how to contribute.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/AeGIS-build-out-guide/";
+          
+        },
+      },{id: "post-l1-l2-and-the-bet-on-sparsity",
         
           title: "L1, L2, and the bet on sparsity",
         
