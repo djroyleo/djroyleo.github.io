@@ -18,6 +18,8 @@ chart:
 tikzjax: true
 typograms: true
 
+bibliography: 2018-12-22-distill.bib
+
 authors:
   - name: Dylan J Roy-Leo
     url: "https://djroyleo.github.io"
