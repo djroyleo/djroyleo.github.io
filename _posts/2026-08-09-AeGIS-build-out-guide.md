@@ -2,7 +2,7 @@
 layout: distill
 title: AeGIS Build-Out-Guide
 description: A guide of the AeGIS codebase with instruction on how to contribute.
-tags: AeGIS
+tags: aegis code
 date: 2026-08-09
 featured: true
 giscus_comments: true
@@ -17,14 +17,15 @@ chart:
   vega_lite: true
 tikzjax: true
 typograms: true
-
-bibliography: 2018-12-22-distill.bib
+giscus_comments: true
 
 authors:
   - name: Dylan J Roy-Leo
     url: "https://djroyleo.github.io"
     affiliations:
       name: UMass
+
+bibliography: 2018-12-22-distill.bib
 
 _styles: >
   .fake-img {
