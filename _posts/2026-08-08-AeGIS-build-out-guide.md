@@ -3,7 +3,7 @@ layout: distill
 title: AeGIS Build-Out-Guide
 description: A guide of the AeGIS codebase with instruction on how to contribute.
 tags: aegis code
-date: 2026-08-09
+date: 2026-08-08
 featured: true
 giscus_comments: true
 mermaid:
@@ -17,7 +17,6 @@ chart:
   vega_lite: true
 tikzjax: true
 typograms: true
-giscus_comments: true
 
 authors:
   - name: Dylan J Roy-Leo
