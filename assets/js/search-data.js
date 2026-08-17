@@ -273,6 +273,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/pale_fire/";
+            },},{id: "books-heretics-of-dune",
+          title: 'Heretics of Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/heretics_of_dune/";
+            },},{id: "books-the-rust-programming-language",
+          title: 'The Rust Programming Language',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_rust_programming_language/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
