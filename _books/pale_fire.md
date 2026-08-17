@@ -11,6 +11,6 @@ started: 2026-08-04
 finished: 2026-08-24
 released: 1981
 stars: 5
-status: reading
+status: paused
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
