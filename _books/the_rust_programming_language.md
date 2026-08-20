@@ -14,3 +14,32 @@ stars: 5
 status: reading
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
+My solution to the coding problem posed in section 4.4, Understanding Ownership: The Slice Type, page 123.
+
+``` rust
+use std::io;
+
+fn main() {
+    let mut s: String = String::new();
+
+    io::stdin()
+        .read_line()
+        .expect("Cannot read line")
+    
+    let mut word: String = String::new();
+
+    for s_n: char in s.chars() {
+        if s_n != ' ' {
+            word.push(ch: s_n)
+        }
+        else {
+            break
+        }
+    }
+
+    println!("{}", word)
+}
+
+```
+
+My solution worked, but did not require the use of slices. The book-provided example which walked through the use of slices and how they fix null-pointer errors was illuminating.
