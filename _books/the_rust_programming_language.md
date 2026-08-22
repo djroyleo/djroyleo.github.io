@@ -30,7 +30,10 @@ I can't recommend this book enough to those who want to learn Rust and who have 
 
 
 # Chapter 4
-My solution to the coding problem posed in section 4.4, Understanding Ownership: The Slice Type, page 123.
+
+## Chapter 4.4
+
+My solution to the coding problem posed in chapter 4.4, _Understanding Ownership: The Slice Type_, on page 123.
 
 ``` rust
 use std::io;
@@ -69,3 +72,35 @@ My solution worked, but did not require the use of slices. The book-provided exa
 
 
 # Chapter 7
+
+## Chapter 7.3
+
+Take a look at listing 7-9 in chapter 7.3, _Paths for Referring to an Item in the Module Tree: Making Structs and Enums Public_, on page 200.
+
+```rust
+mod back_of_house {
+    pub struct Breakfast {
+        pub toast: String,
+        seasonal_fruit: String,
+    }
+
+    impl Breakfast {
+        pub fn summer(toast: &str) -> Breakfast {
+            Breakfast {
+                toast: String::from(toast),
+                seasonal_fruit: String::from("peaches"),
+            }
+        }
+    }
+}
+
+pub fn eat_at_restaurant() {
+    // Order a breakfast in the summer with Rye toast.
+    let mut meal = back_of_house::Breakfast::summer("Rye");
+    // Change our mind about what bread we'd like.
+    meal.toast = String::from("Wheat");
+    println!("I'd like {} toast please", meal.toast);
+}
+```
+
+This tripped me up at first because I thought that the `pub` keyword before the field definition of `toast` during the definition of the `Breakfast` struct was "bypassing" the natural immutability of the `toast` field (I wanted toast to be defined as `pub mut toast: String,` even though this is not valid Rust syntax for defining struct fields). What I failed to understand is that struct fields do not have natural immutability themselves, and that the license to mutate _actually_ comes from the **binding** which in this case is the variable binding `let mut meal = back_of_house::Breakfast::summer("Rye");`. Here meal is bound--_using the mut keyword_--to an expression that evaluates to an instance of the Breakfast struct, therefore allowing mutability on this instance of the Breakfast struct and all associated fields.
