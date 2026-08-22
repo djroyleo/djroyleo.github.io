@@ -14,6 +14,22 @@ stars: 5
 status: reading
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
+
+I can't recommend this book enough to those who want to learn Rust and who have little programming/computer-science experience. It's very well written in a comfortingly _human_ way (something thats sorely lacking now-a-days), and the extensive example and counter-examples will leave you feeling like you can deal with any situation that comes across your path no worse than the most experienced Rustaceans.
+
+# Chapter 1
+
+
+
+# Chapter 2
+
+
+
+# Chapter 3
+
+
+
+# Chapter 4
 My solution to the coding problem posed in section 4.4, Understanding Ownership: The Slice Type, page 123.
 
 ``` rust
@@ -43,3 +59,13 @@ fn main() {
 ```
 
 My solution worked, but did not require the use of slices. The book-provided example which walked through the use of slices and how they fix null-pointer errors was illuminating.
+
+# Chapter 5
+
+
+
+# Chapter 6
+
+
+
+# Chapter 7
