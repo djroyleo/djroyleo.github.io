@@ -314,6 +314,11 @@ ninja.data = [{
           description: "A blazingly fast GIS application written in Rust.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-gis-utils",
+          title: 'gis-utils',
+          description: "A command line package for GIS utility written in Rust.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{id: "teachings-gis-and-spatial-analysis",
           title: 'GIS and Spatial Analysis',
           description: "",
