@@ -104,3 +104,36 @@ pub fn eat_at_restaurant() {
 ```
 
 This tripped me up at first because I thought that the `pub` keyword before the field definition of `toast` during the definition of the `Breakfast` struct was "bypassing" the natural immutability of the `toast` field (I wanted toast to be defined as `pub mut toast: String,` even though this is not valid Rust syntax for defining struct fields). What I failed to understand is that struct fields do not have natural immutability themselves, and that the license to mutate _actually_ comes from the **binding** which in this case is the variable binding `let mut meal = back_of_house::Breakfast::summer("Rye");`. Here meal is bound--_using the mut keyword_--to an expression that evaluates to an instance of the Breakfast struct, therefore allowing mutability on this instance of the Breakfast struct and all associated fields.
+
+# Chapter 10
+
+## Chapter 10.1
+
+Implementing methods on structs is an incredibly useful feature of Rust, and so is the type system and, by extension, the generic type system. Say you have a struct of generic type `<T>`, and you want to implement methods on this struct. However, you only want to certain method implementations to be available when your struct is of a particular type. For example consider this struct:
+
+```rust
+struct Point<T> {
+    x: T,
+    y: T,
+}
+```
+
+This struct can realistically take x and y values that are i8, u8, i32, f64, and anything else. But say we want to have a method that works on a `Point` object only when it is of type `f32` and converts it to type `f64`. We don't want this method to work on `Point` objects with x and y values of type `u8` for example, so what's the syntax we can use to specify our demands? Take a look at the following code to see:
+
+```rust
+impl Point<f32> {
+    fn f32_to_f64(&self) -> Point<f32> {
+        // Write code here to convert Point<f32> to Point <f64> and return it.
+    }
+}
+```
+
+Alternatively the syntac to implement a method that works on generic types instead of concrete type is the following:
+
+```rust
+impl<T> Point<T> {
+    fn x(&self) -> &T {
+        &self.x
+    }
+}
+```
