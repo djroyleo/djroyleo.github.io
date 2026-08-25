@@ -14,3 +14,6 @@ stars: 3
 status: reading
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
+Here's some of my favorite pre-chapter quotes from Frank Herbert's *Heretics of Dune*:
+
+> Law always chooses sides on the basis of enforcement power. Morality and legal niceties have little to do with it when the real question is: Who has the clout? - BENE GESSERIT COUNCIL PROCEEDINGS: ARCHIVES #X0X232
