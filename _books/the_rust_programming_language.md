@@ -137,3 +137,71 @@ impl<T> Point<T> {
     }
 }
 ```
+
+## Chapter 10.2
+Traits are used to defined *shared behavior* between different types. The behavior of a type, any type, is defined by the methods that can be called on that type. So *shared behavior*, in terms of types, really refers to *shared methods*. Traits, then, are a way of logically grouping shared methods across types, insuring that different types are guaranteed valid ways of handling a set of method calls if they share the same trait. We can see how traits work just by looking at the way we define traits in Rust code.
+
+```rust
+pub trait Summary {
+	fn summarize(&self) -> String;
+	fn summarize_to_char_vec(&self) -> Vec<Char>;
+}
+```
+As we can see in the above example, a trait definition has within it various method signatures (`fn summarize(&self) -> String` and `fn summarize_to_char(&self) -> Vec<Char>`, in this case) telling us what methods types with this trait will implement, what the arguments to those methods will be, and what the return types to these methods will be. Importantly, though, the implementations of these methods (what goes in the curly brackets `{}` after the methods signature) does NOT occur in the trait definition, and instead will occur *later* during the unique and per-type implementation of the trait.
+```rust
+impl Summary for NewsArticle {
+	fn summarize(&self) -> String {
+		// Logic and expression which evaluates to a String which is a summary 
+		// of type NewsArticle.
+	}
+	
+	fn summarize_to_char(&self) -> Vec<Char> {
+	// Logic and expression which evaluates to a vector of characters which is
+	// a summary of type NewsArticle.
+}
+```
+The following is a more expansive example of defining two separate types as structs and implementing a shared trait to both of them. This example comes from *The Rust Programming Language* book ("The Book"):
+```rust
+pub struct NewsArticle {  
+	pub headline: String, 
+	pub location: String, 
+	pub author: String, 
+	pub content: String, 
+}
+
+impl Summary for NewsArticle {  
+	fn summarize(&self) -> String {  
+		format!("{}, by {} ({})", self.headline, self.author, self.location) 
+	} 
+}
+
+pub struct SocialPost {  
+	pub username: String, 
+	pub content: String, 
+	pub reply: bool, 
+	pub repost: bool, 
+}
+
+impl Summary for SocialPost {  
+	fn summarize(&self) -> String {  
+		format!("{}: {}", self.username, self.content) 
+	} 
+}
+```
+In addition to grouping families of methods on types, traits can be used in normal function definitions to limit the arguments passed to those functions. Say for example, we want to define a function that allows any type to be passed to it, as long as that type implement a certain trait. We can do that in Rust! Like so:
+```rust
+pub fn notify(item: &impl Summary) {
+	println!("Breaking news! {}", item.summarize());
+}
+```
+The above code was taken directly from *The Rust Programming Language* book, and describes a function that takes any type as an argument `item` as **long as that type implements the `Summary` trait**. In this case, the notify function can call all the methods associated with `Summary` on the `item` argument within its implementation. This is allowed because all the methods defined in the method signatures associated with types that implement the Summary trait are ***defined***, in this particular case meaning that we KNOW that `.summarize()` returns a `String` type. It cannot return anything else, it is how it is defined to be.
+
+But what about when our function has two or more arguments? Well in these cases there are more options to cover. Specifically, we want to explicitly define whether the multiple arguments are allowed to be of the same type or not. If we want the function to take multiple arguments (two, for example) that can be different types and which both implement `Summary`, then the function signature should look like so:
+```rust
+pub fn notify(item1: &impl Summary, item2: &impl Summary) {
+```
+However if we want the function to take multiple arguments that cannot be different types and which both implement `Summary`, then the function signature should look like so:
+```rust
+pub fn notify<T: Summary>(item1: &T, item2: &T) {
+```
+In this case, the type signature in the `< >`  brackets as constrained the types of the `item1` and `item2` arguments to be a generic of type T that implements Summary, but also--importantly--the SAME generic of type T that implements Summary.
