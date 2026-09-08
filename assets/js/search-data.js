@@ -278,6 +278,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/heretics_of_dune/";
+            },},{id: "books-numerical-methods-for-unconstrained-optimization-and-nonlinear-equation",
+          title: 'Numerical Methods for Unconstrained Optimization and Nonlinear Equation',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/numerical_methods_for_unconstrained_optimization_and_nonlinear_equations/";
             },},{id: "books-the-rust-programming-language",
           title: 'The Rust Programming Language',
           description: "",
