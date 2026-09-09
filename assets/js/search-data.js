@@ -80,39 +80,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/L1-L2-bet-on-sparsity/";
           
         },
-      },{id: "post-linear-discriminant-analysis",
-        
-          title: "Linear Discriminant Analysis",
-        
-        description: "My notes on LDA from the textbook &quot;An Introduction to Statistical Learning&quot;",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/biostats-week9/";
-          
-        },
-      },{id: "post-shrinkage-methods-ridge-regression-and-the-lasso",
-        
-          title: "Shrinkage methods, ridge regression, and the LASSO",
-        
-        description: "My notes on Shrinkage from the textbook &quot;An Introduction to Statistical Learning&quot;",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/biostats-week5/";
-          
-        },
-      },{id: "post-subset-selection",
-        
-          title: "Subset Selection",
-        
-        description: "My notes on subset selection methods from the textbook &quot;An Introduction to Statistical Learning&quot;",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/biostats-week4/";
-          
-        },
       },{id: "books-a-prayer-for-owen-meany",
           title: 'A Prayer for Owen Meany',
           description: "",
