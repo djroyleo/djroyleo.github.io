@@ -8,10 +8,10 @@ tags: top-100
 buy_link:
 date: 2026-08-17
 started: 2026-08-15
-finished: 2026-08-29
+finished: 2026-09-09
 released: 1984
 stars: 3
-status: reading
+status: finished
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
 Here's some of my favorite pre-chapter quotes from Frank Herbert's *Heretics of Dune*:
