@@ -240,6 +240,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/pale_fire/";
+            },},{id: "books-chapterhouse-dune",
+          title: 'Chapterhouse Dune',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/chapterhouse_dune/";
             },},{id: "books-heretics-of-dune",
           title: 'Heretics of Dune',
           description: "",
