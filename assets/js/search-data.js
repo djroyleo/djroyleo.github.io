@@ -303,7 +303,7 @@ ninja.data = [{
               window.location.href = "/teachings/advanced_gis/";
             },},{id: "teachings-remote-sensing-and-image-interpretation",
           title: 'Remote Sensing and Image Interpretation',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
+          description: "",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/remote_sensing/";
             },},{
