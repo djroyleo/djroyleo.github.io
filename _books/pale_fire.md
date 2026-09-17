@@ -14,3 +14,5 @@ stars: 5
 status: paused
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
+
+I've decided to read Pale Fire in a manner similar to how Charles Kinbote suggests in the Foreward. That is, first read the Forward, then skip to the Commentary while jumping back to the Poem when necessary to keep up. In essence, reading the Poem and Commentary simultaneously. Then, of course, finish with the Index, which I'm told is actually important.

@@ -139,7 +139,7 @@ impl<T> Point<T> {
 ```
 
 ## Chapter 10.2
-Traits are used to defined *shared behavior* between different types. The behavior of a type, any type, is defined by the methods that can be called on that type. So *shared behavior*, in terms of types, really refers to *shared methods*. Traits, then, are a way of logically grouping shared methods across types, insuring that different types are guaranteed valid ways of handling a set of method calls if they share the same trait. We can see how traits work just by looking at the way we define traits in Rust code.
+Traits are used to define *shared behavior* between different types. The behavior of a type, any type, is defined by the methods that can be called on that type. So *shared behavior*, in terms of types, really refers to *shared methods*. Traits, then, are a way of logically grouping shared methods across types, insuring that different types are guaranteed valid ways of handling a set of method calls if they share the same trait. We can see how traits work just by looking at the way we define traits in Rust code.
 
 ```rust
 pub trait Summary {
@@ -205,3 +205,9 @@ However if we want the function to take multiple arguments that cannot be differ
 pub fn notify<T: Summary>(item1: &T, item2: &T) {
 ```
 In this case, the type signature in the `< >`  brackets as constrained the types of the `item1` and `item2` arguments to be a generic of type T that implements Summary, but also--importantly--the SAME generic of type T that implements Summary.
+
+# Chapter 12
+
+## `unwrap_or_else`
+
+The `unwrap_or_else` method function of the `Result<T, E>` type in Rust is a very elegent way of handling potential errors. When you call the `unwrap_or_else` function on a Result type, you add a closure as an argument to the function. If the type that `unwrap_or_else` was called on is an Err type internally, then the Error get passed to the closure, where you can handle it explicitly. Otherwise, if it is internally an `Ok()` type, then the value inside `Ok()` gets returned like a normal `unwrap()`. The nice difference between `unwrap()` and `unwrap_or_else()` is that the ladder doesn't immediately panic when faced with an Error varient.
