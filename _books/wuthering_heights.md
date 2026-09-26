@@ -2,7 +2,7 @@
 layout: book-review
 title: Wuthering Heights
 author: Emily Brontë
-cover: assets/img/book_covers/wuthering_Heights_cover.jpg # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+cover: assets/img/book_covers/wuthering_heights_cover.jpg # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: fiction gothic tragedy
 tags: top-100
 buy_link:
