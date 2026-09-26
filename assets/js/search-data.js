@@ -244,7 +244,7 @@ ninja.data = [{
           title: 'Wuthering Heights',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/dune%20copy/";
+              window.location.href = "/books/wuthering_heights/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
