@@ -240,6 +240,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/chapterhouse_dune/";
+            },},{id: "books-wuthering-heights",
+          title: 'Wuthering Heights',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/dune%20copy/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
