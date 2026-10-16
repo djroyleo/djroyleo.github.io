@@ -69,17 +69,6 @@ ninja.data = [{
             window.location.href = "/blog/2026/AeGIS-build-out-guide/";
           
         },
-      },{id: "post-l1-l2-and-the-bet-on-sparsity",
-        
-          title: "L1, L2, and the bet on sparsity",
-        
-        description: "How do the L1 and L2 norms relate to each other and to the predictive power of statistical models in varying situations?",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/L1-L2-bet-on-sparsity/";
-          
-        },
       },{id: "books-a-prayer-for-owen-meany",
           title: 'A Prayer for Owen Meany',
           description: "",
@@ -240,11 +229,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/chapterhouse_dune/";
-            },},{id: "books-wuthering-heights",
-          title: 'Wuthering Heights',
+            },},{id: "books-east-of-eden",
+          title: 'East of Eden',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/wuthering_heights/";
+              window.location.href = "/books/east_of_eden/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
