@@ -11,6 +11,6 @@ started: 2026-10-20
 finished: 2026-10-30
 released: 1952
 stars: 5
-status: queued
+status: finished
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---

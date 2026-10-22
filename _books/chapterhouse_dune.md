@@ -10,6 +10,6 @@ started: 2026-09-11
 finished: 2026-09-20
 released: 1985
 stars: 3
-status: reading
+status: finished
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
