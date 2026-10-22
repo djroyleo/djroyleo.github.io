@@ -1,10 +1,9 @@
 github_users:
-  - dylroy
   - djroyleo
 
 repo_description_lines_max: 2
 
 github_repos:
-  - dylroy/cavity-flow
-  - dylroy/lorenz-animation
-  - djroyleo/djroyleo.github.io
+  - djroyleo/cavity-flow
+  - djroyleo/lorenz-animation
+  - djroyleo/gis-utils
