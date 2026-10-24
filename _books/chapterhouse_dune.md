@@ -9,7 +9,7 @@ date: 2026-09-11
 started: 2026-09-11
 finished: 2026-09-20
 released: 1985
-stars: 3
+stars: 1
 status: finished
 # status options include:'abandoned,finished,interested,paused,queued,reading,reread'
 ---
